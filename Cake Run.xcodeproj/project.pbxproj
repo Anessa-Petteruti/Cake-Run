@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F607E9BB22AFE69E003807E6 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F607E9BA22AFE69E003807E6 /* StartScene.sks */; };
+		F607E9BD22AFE6D0003807E6 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607E9BC22AFE6D0003807E6 /* StartScene.swift */; };
+		F607E9BF22B2B522003807E6 /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F607E9BE22B2B521003807E6 /* Images.atlas */; };
 		F637DB9B21173F4C000A5A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637DB9A21173F4C000A5A44 /* AppDelegate.swift */; };
 		F637DB9D21173F4C000A5A44 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F637DB9C21173F4C000A5A44 /* GameScene.sks */; };
 		F637DB9F21173F4C000A5A44 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F637DB9E21173F4C000A5A44 /* Actions.sks */; };
@@ -15,9 +18,20 @@
 		F637DBA621173F4C000A5A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F637DBA421173F4C000A5A44 /* Main.storyboard */; };
 		F637DBA821173F4C000A5A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F637DBA721173F4C000A5A44 /* Assets.xcassets */; };
 		F637DBAB21173F4C000A5A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F637DBA921173F4C000A5A44 /* LaunchScreen.storyboard */; };
+		F637DBB5211879F2000A5A44 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637DBB4211879F2000A5A44 /* Home.swift */; };
+		F6BF73AC2119C31000A4FBE7 /* knewave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73AB2119C31000A4FBE7 /* knewave.ttf */; };
+		F6BF73AE2119C4A000A4FBE7 /* EmilysCandy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73AD2119C4A000A4FBE7 /* EmilysCandy-Regular.ttf */; };
+		F6BF73B02119CB8D00A4FBE7 /* cakeRunAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73AF2119CB8D00A4FBE7 /* cakeRunAudio.mp3 */; };
+		F6BF73B22119DDC700A4FBE7 /* playingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73B12119DDC700A4FBE7 /* playingAudio.mp3 */; };
+		F6BF73B4211A22CB00A4FBE7 /* gameOverSFX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73B3211A22CA00A4FBE7 /* gameOverSFX.mp3 */; };
+		F6BF73B8211A22E700A4FBE7 /* cakeSFX.MP3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73B7211A22E700A4FBE7 /* cakeSFX.MP3 */; };
+		F6BF73BA211A2F8A00A4FBE7 /* rottenEggSFX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6BF73B9211A2F8A00A4FBE7 /* rottenEggSFX.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F607E9BA22AFE69E003807E6 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		F607E9BC22AFE6D0003807E6 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		F607E9BE22B2B521003807E6 /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
 		F637DB9721173F4C000A5A44 /* Cake Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cake Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F637DB9A21173F4C000A5A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F637DB9C21173F4C000A5A44 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +42,14 @@
 		F637DBA721173F4C000A5A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F637DBAA21173F4C000A5A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F637DBAC21173F4C000A5A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F637DBB4211879F2000A5A44 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F6BF73AB2119C31000A4FBE7 /* knewave.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = knewave.ttf; path = ../../../Downloads/knewave.ttf; sourceTree = "<group>"; };
+		F6BF73AD2119C4A000A4FBE7 /* EmilysCandy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EmilysCandy-Regular.ttf"; path = "../../../Downloads/emilys-candy 2/EmilysCandy-Regular.ttf"; sourceTree = "<group>"; };
+		F6BF73AF2119CB8D00A4FBE7 /* cakeRunAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cakeRunAudio.mp3; sourceTree = "<group>"; };
+		F6BF73B12119DDC700A4FBE7 /* playingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = playingAudio.mp3; sourceTree = "<group>"; };
+		F6BF73B3211A22CA00A4FBE7 /* gameOverSFX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOverSFX.mp3; sourceTree = "<group>"; };
+		F6BF73B7211A22E700A4FBE7 /* cakeSFX.MP3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cakeSFX.MP3; sourceTree = "<group>"; };
+		F6BF73B9211A2F8A00A4FBE7 /* rottenEggSFX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rottenEggSFX.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +82,24 @@
 		F637DB9921173F4C000A5A44 /* Cake Run */ = {
 			isa = PBXGroup;
 			children = (
+				F607E9BE22B2B521003807E6 /* Images.atlas */,
 				F637DB9A21173F4C000A5A44 /* AppDelegate.swift */,
 				F637DB9C21173F4C000A5A44 /* GameScene.sks */,
+				F607E9BA22AFE69E003807E6 /* StartScene.sks */,
+				F607E9BC22AFE6D0003807E6 /* StartScene.swift */,
 				F637DB9E21173F4C000A5A44 /* Actions.sks */,
 				F637DBA021173F4C000A5A44 /* GameScene.swift */,
 				F637DBA221173F4C000A5A44 /* GameViewController.swift */,
 				F637DBA421173F4C000A5A44 /* Main.storyboard */,
+				F6BF73AD2119C4A000A4FBE7 /* EmilysCandy-Regular.ttf */,
+				F6BF73AB2119C31000A4FBE7 /* knewave.ttf */,
+				F637DBB4211879F2000A5A44 /* Home.swift */,
+				F6BF73AF2119CB8D00A4FBE7 /* cakeRunAudio.mp3 */,
+				F6BF73B12119DDC700A4FBE7 /* playingAudio.mp3 */,
 				F637DBA721173F4C000A5A44 /* Assets.xcassets */,
+				F6BF73B3211A22CA00A4FBE7 /* gameOverSFX.mp3 */,
+				F6BF73B7211A22E700A4FBE7 /* cakeSFX.MP3 */,
+				F6BF73B9211A2F8A00A4FBE7 /* rottenEggSFX.mp3 */,
 				F637DBA921173F4C000A5A44 /* LaunchScreen.storyboard */,
 				F637DBAC21173F4C000A5A44 /* Info.plist */,
 			);
@@ -83,6 +116,7 @@
 				F637DB9321173F4C000A5A44 /* Sources */,
 				F637DB9421173F4C000A5A44 /* Frameworks */,
 				F637DB9521173F4C000A5A44 /* Resources */,
+				F607E9C022B7E24E003807E6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -106,6 +140,11 @@
 					F637DB9621173F4C000A5A44 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -132,15 +171,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F607E9BB22AFE69E003807E6 /* StartScene.sks in Resources */,
+				F607E9BF22B2B522003807E6 /* Images.atlas in Resources */,
 				F637DBA621173F4C000A5A44 /* Main.storyboard in Resources */,
+				F6BF73B02119CB8D00A4FBE7 /* cakeRunAudio.mp3 in Resources */,
+				F6BF73B8211A22E700A4FBE7 /* cakeSFX.MP3 in Resources */,
 				F637DB9D21173F4C000A5A44 /* GameScene.sks in Resources */,
+				F6BF73AC2119C31000A4FBE7 /* knewave.ttf in Resources */,
 				F637DBA821173F4C000A5A44 /* Assets.xcassets in Resources */,
+				F6BF73B22119DDC700A4FBE7 /* playingAudio.mp3 in Resources */,
+				F6BF73B4211A22CB00A4FBE7 /* gameOverSFX.mp3 in Resources */,
 				F637DBAB21173F4C000A5A44 /* LaunchScreen.storyboard in Resources */,
+				F6BF73AE2119C4A000A4FBE7 /* EmilysCandy-Regular.ttf in Resources */,
+				F6BF73BA211A2F8A00A4FBE7 /* rottenEggSFX.mp3 in Resources */,
 				F637DB9F21173F4C000A5A44 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F607E9C022B7E24E003807E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F637DB9321173F4C000A5A44 /* Sources */ = {
@@ -148,7 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F637DBA121173F4C000A5A44 /* GameScene.swift in Sources */,
+				F607E9BD22AFE6D0003807E6 /* StartScene.swift in Sources */,
 				F637DBA321173F4C000A5A44 /* GameViewController.swift in Sources */,
+				F637DBB5211879F2000A5A44 /* Home.swift in Sources */,
 				F637DB9B21173F4C000A5A44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +299,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -279,6 +350,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -287,12 +359,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RXQS7CK9P;
 				INFOPLIST_FILE = "Cake Run/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anessapetteruti.Cake-Run";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anessapetteruti.Cake-Runbundle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
@@ -301,12 +375,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RXQS7CK9P;
 				INFOPLIST_FILE = "Cake Run/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anessapetteruti.Cake-Run";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anessapetteruti.Cake-Runbundle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
